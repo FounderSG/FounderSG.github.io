@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Founder Thought</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2017-07-11T10:20:00+08:00</updated><entry><title>识字卡片</title><link href="/shi-zi-qia-pian.html" rel="alternate"></link><published>2017-07-11T10:20:00+08:00</published><updated>2017-07-11T10:20:00+08:00</updated><author><name>Founder Fang</name></author><id>tag:None,2017-07-11:/shi-zi-qia-pian.html</id><summary type="html">&lt;p&gt;这是一个简单的识字卡片软件.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Founder Thought</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2018-02-15T19:20:00+08:00</updated><entry><title>EzRemote</title><link href="/ezremote.html" rel="alternate"></link><published>2018-02-15T19:20:00+08:00</published><updated>2018-02-15T19:20:00+08:00</updated><author><name>Founder Fang</name></author><id>tag:None,2018-02-15:/ezremote.html</id><summary type="html">&lt;p&gt;With FzRemote you can easily setup a remote control for all your home device.
+FzRemote works with ZRC compatible remote control.
+&lt;a href="/images/launchpad.png"&gt;Alt Text&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;With FzRemote you can easily setup a remote control for all your home device.
+FzRemote works with ZRC compatible remote control.
+&lt;a href="/images/launchpad.png"&gt;Alt Text&lt;/a&gt;&lt;/p&gt;</content></entry><entry><title>FzRemote</title><link href="/fzremote.html" rel="alternate"></link><published>2018-02-15T19:20:00+08:00</published><updated>2018-02-15T19:20:00+08:00</updated><author><name>Founder Fang</name></author><id>tag:None,2018-02-15:/fzremote.html</id><summary type="html">&lt;p&gt;With FzRemote you can easily setup a remote control for all your home device.
+FzRemote works with ZRC compatible remote control.
+&lt;img alt="Alt Text" src="/images/CC2650RC.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;With FzRemote you can easily setup a remote control for all your home device.
+FzRemote works with ZRC compatible remote control.
+&lt;img alt="Alt Text" src="/images/CC2650RC.png"&gt;&lt;/p&gt;</content></entry><entry><title>识字卡片</title><link href="/shi-zi-qia-pian.html" rel="alternate"></link><published>2017-07-11T10:20:00+08:00</published><updated>2017-07-11T10:20:00+08:00</updated><author><name>Founder Fang</name></author><id>tag:None,2017-07-11:/shi-zi-qia-pian.html</id><summary type="html">&lt;p&gt;这是一个简单的识字卡片软件.
 在AppStore里找不到符合我需要的，于是就自己写了一个。
 我的需求其实很简单，就是要能够自己输入要认的汉字，可是找了几个App都不行。
 另外我也不需要汉字旁边有图，是教小孩认字又不是教小孩认图。&lt;/p&gt;</summary><content type="html">&lt;p&gt;这是一个简单的识字卡片软件.
