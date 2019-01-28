@@ -22,7 +22,44 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="../diy-ble-to-ir-bridge.html">DIY BLE to IR Bridge</a></h1>
+                    <h1 class="entry-title"><a href="../diy-audio-jack-ir-blaster.html">DIY audio jack ir blaster</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2019-01-28T10:20:00+08:00">
+                Published: Mon 28 January 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="../author/founder-fang.html">Founder Fang</a>
+        </address>
+<p>In <a href="../category/my-blogs.html">My Blogs</a>.</p>
+
+</footer><!-- /.post-info --><p><strong>This IR Blaster works with iOS App <a href="http://appstore.com/ezremote">EzRemote</a></strong>  </p>
+<h1>Theory</h1>
+<p>The process is based on the fact that the IR key codes are series of square waves at 38kHz of main frequency. The duration in time of the square waves ON and OFF defines the codification of a specific key. By considering a common audio stereo channel (2 mono), it can support max of 22kHz per channel with a total of 44kHz. This means that if an audio stereo channel is created by considering 2 mono channels defined in this way:  </p>
+<p>-wayChannel #1= sine wave with 19kHz as main frequency and silent for the time duration at which original IR key square wave is zero  </p>
+<p>-zeroChannel #2= same as Channel #1 but inverted (basically mirrored)  </p>
+<p>then, it is possible to emulate the Remote Controller with a simple audio player hardware and a very simple dual led transmitter.</p>
+<h1>Transmitter</h1>
+<p>This allows you to send IR codes. What you need is:  </p>
+<p><em>2 IR Led 940nm 5mm (the typical one present on RC)<br>
+</em>1 stereo jack 3.5mm  </p>
+<p>The connections should be as showed below= Led1 (+) must be connected to Led2 (-) and both to one stereo channel, Led1 (-) must be connected to Led2 (+) and both to the other stereo channel leaving the ground not connected
+<img alt="Alt Text" src="../images/diyirblaster.png"></p>
+<p>text is cheap 
+<a href="https://www.youtube.com/results?search_query=diy+ir+blaster">watch diy ir blaster videos on youtube</a></p>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="../diy-ble-to-ir-bridge.html" rel="bookmark"
+                           title="Permalink to DIY BLE to IR Bridge">DIY BLE to IR Bridge</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2018-02-20T10:20:00+08:00">
                 Published: Tue 20 February 2018
@@ -33,7 +70,7 @@
         </address>
 <p>In <a href="../category/my-blogs.html">My Blogs</a>.</p>
 
-</footer><!-- /.post-info --><p><strong>This IR Bridge works with iOS App <a href="http://appstore.com/fzremote">FzRemote</a></strong><br>
+</footer><!-- /.post-info -->                <p><strong>This IR Bridge works with iOS App <a href="http://appstore.com/fzremote">FzRemote</a></strong><br>
 Project Home Page <a href="https://github.com/FounderSG/ZRC">https://github.com/FounderSG/ZRC</a> </p>
 <p>What you need:<br>
 1. <a href="http://www.ti.com/tool/LAUNCHXL-CC2640R2">Ti CC2640R2 LaunchPad</a><br>
@@ -41,19 +78,12 @@ Project Home Page <a href="https://github.com/FounderSG/ZRC">https://github.com/
 <img alt="IRLED" src="../images/IRLED.jpg"><br>
 3. wires and iron  </p>
 <p>Connection:<br>
-IR led have only two pin, connect one pin to GND and another pin to DIO7.<br>
-if you are not sure which pin is GND, just try, reverse connection won't burn your circuit.<br>
-IR is invisible to human eyes, but you can see it from phone camera.
-DIO7 also connect to green LED, if no IR led you can see green LED blink when IR firing.
-if IR led connected, green LED stop blink because IR led have a much lower resistence.</p>
-<p>Final Product:<br>
-<img alt="IMG" src="../images/BleIRBridge01.png"><br>
-I use a clipper, one AA battery, and some paper to make IR led stand firmly.<br>
-<img alt="IMG" src="../images/BleIRBridge02.png">  </p>
-<p>Known Problem:<br>
-IR signal weak due to IR led drive directly by GPIO and this GPIO also connect to green led.
-if you are hardware expert you may want to add amplifying circuit.</p>                </article>
-            </aside><!-- /#featured -->
+IR led …</p>
+                <a class="readmore" href="../diy-ble-to-ir-bridge.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+                </ol><!-- /#posts-list -->
+                </section><!-- /#content -->
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>links</h2>
